@@ -9,29 +9,43 @@
   </head>
 
   <body class="bg-gray-100">
-    <div class="p-8">
-      <img src="img/logo.svg" alt="logo" class="h-10" />
-      <img
-        src="img/beach-work.jpg"
-        alt="woman on beach"
-        class="mt-6 rounded-lg shadow-xl"
-      />
-      <h1 class="mt-6 text-2xl font-bold text-grey-900">
-        You can work from anywhere.
-        <span class="text-indigo-600"> Take advantage of it. </span>
-      </h1>
-      <p class="mt-2 text-gray-600">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
-        iure fuga. Officia eveniet voluptatem exercitationem quasi nulla
-        veritatis quae magnam, harum rem molestiae deserunt voluptate fugit
-        dolor eos in fugiat?
-      </p>
-      <div class="mt-4">
-        <a
-          href="#"
-          class="inline-block bg-indigo-500 text-white font-semibold px-5 py-3 rounded-lg shadow-lg uppercase tracking-wider text-sm"
-          >Book your escape</a
+    <div class="grid lg:grid-cols-2">
+      <div
+        class="p-8 max-w-md mx-auto sm:max-w-lg lg:px-12 lg:py-24 lg:max-w-full"
+      >
+        <img src="img/logo.svg" alt="logo" class="h-10" />
+        <img
+          src="img/beach-work.jpg"
+          alt="woman on beach"
+          class="mt-6 rounded-lg shadow-xl sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
+        />
+        <h1
+          class="mt-6 text-2xl font-bold text-grey-900 sm:mt-8 sm:text-4xl lg:text-3xl"
         >
+          You can work from anywhere.
+          <br class="hidden lg:inline sm:inline" />
+          <span class="text-indigo-600"> Take advantage of it. </span>
+        </h1>
+        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-lg">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
+          iure fuga. Officia eveniet voluptatem exercitationem quasi nulla
+          veritatis quae magnam, harum rem molestiae deserunt voluptate fugit
+          dolor eos in fugiat?
+        </p>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="inline-block bg-indigo-500 text-white font-semibold px-5 py-3 rounded-lg shadow-lg uppercase tracking-wider text-sm sm:text-base"
+            >Book your escape</a
+          >
+        </div>
+      </div>
+      <div class="hidden lg:block relative">
+        <img
+          src="img/beach-work.jpg"
+          alt="woman on beach"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+        />
       </div>
     </div>
   </body>
